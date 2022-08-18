@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: rgb(229, 225, 250);
+  font-family: 'Poppins', sans-serif;
+}
+
+.headContent {
+  display: flex;
+  margin: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.content {
+  flex: 40%;
+  margin: 100px 10px 100px 50px;
+}
+
+.cardContent {
+  flex: 10%;
+  width: 10%;
+  margin: 100px 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 0px;
+  box-shadow: 0 0 15px rgb(197, 197, 197);
+}
+
+.btnContact a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 3px 20px;
+  background-color: navy;
+  color: white;
+  border: navy;
+}
+
+.btnContact a:hover {
+  text-decoration: none;
+  background-color: silver;
+  border-color: silver;
+  color: white;
+}
+
+.btn {
+  display: flex;
+}

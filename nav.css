@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  height: 9vh;
+  background-color: rgb(246, 246, 246);
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  flex: 50%;
+}
+
+.navLeft ul li a:hover {
+  color: silver;
+}
+
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.navRight {
+  padding-top: 3px;
+  text-align: right;
+  padding-right: 40px;
+  flex: 30%;
+}
+
+.navRight ul li a {
+  border: 2px solid navy;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: navy;
+  color: white;
+}
+
+.navRight ul li a:hover {
+  border-color: silver;
+  background-color: silver;
+  color: white;
+}

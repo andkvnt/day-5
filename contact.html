@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Home</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <script src="kontak.js"></script>
+    <nav>
+      <div class="navLeft">
+        <a href="index.html"><img src="logo.png" alt="logo" style="width: 40px" /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">MyProject</a></li>
+        </ul>
+      </div>
+
+      <div class="navRight">
+        <ul>
+          <li>
+            <a href="contact.html" class="contacMe">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="headContent">
+      <div>
+        <h1 style="text-align: center">GET IN TOUCH</h1>
+        <div class="form">
+          <div class="form_element">
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Masukkan nama anda" style="padding-left: 5px" />
+          </div>
+
+          <div class="form_element">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="@gmail.com" style="padding-left: 5px" />
+          </div>
+
+          <div class="form_element">
+            <label for="phone">Nomor Telepon</label>
+            <input type="text" id="phone" placeholder="Isikan Nomor Telepon anda" style="padding-left: 5px" />
+          </div>
+
+          <div class="form_element">
+            <label for="subject">Subject</label>
+            <select name="subjet" id="subject">
+              <option value="selectAgency" hidden>Pilih Agensi Anda</option>
+              <option value="Programmer">Programmer</option>
+              <option value="Cyber Security">Cyber Security</option>
+              <option value="Video Editor">Video Editor</option>
+            </select>
+          </div>
+
+          <div class="form_element">
+            <label for="message">Pesan Anda</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Komentar anda" style="resize: none"></textarea>
+          </div>
+
+          <div class="btnSubmit-kirim">
+            <button type="submit" onclick="buttonSubmit()">Kirim</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

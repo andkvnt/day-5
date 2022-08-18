@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  background-color: rgb(196, 193, 193);
+  font-family: 'Poppins', sans-serif;
+  min-height: 1500px;
+}
+
+.close_btn {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  top: 8px;
+  right: 8px;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid lightgrey;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.formContainerBlock {
+  width: 40%;
+  margin: 0 auto;
+  background: rgb(196, 193, 193);
+}
+
+.formContainerBlock h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.formSubmitButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.formSubmitButton label {
+  margin-bottom: 0.3rem;
+}
+
+.formSubmitButton input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+}
+
+.formSubmitButtongroup input::placeholder {
+  font-size: 1rem;
+}
+
+.formSubmitButton textarea {
+  width: 100%;
+  border-radius: 10px;
+  height: 8rem;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: inherit;
+}
+
+.formSubmitButton select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formSubmitButton .buttonSubmit {
+  width: 100px;
+  border-radius: 15px;
+  background-color: orangered;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.formSubmitButton .buttonSubmit:hover {
+  border-color: rgb(138, 138, 138);
+  background-color: rgb(138, 138, 138);
+}
+
+.formDateSubmitButton {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.formDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.formDate:first-child {
+  flex: 50%;
+  margin-right: 0.5rem;
+}
+.formDate:last-child {
+  flex: 50%;
+}
+
+.formDate input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid rgb(116, 116, 116);
+}
+
+.logoCheckbox {
+  margin-bottom: 0.8rem;
+}
+
+.checkboxes {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.left {
+  margin-right: 5rem;
+}
+
+.checkbox_group:first-child {
+  margin-bottom: 1rem;
+}
+
+.upload_btn {
+  color: #fff;
+  background-color: orangered;
+
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.upload_btn:hover {
+  border-color: rgb(138, 138, 138);
+  background-color: rgb(138, 138, 138);
+}
+
+.preview {
+  width: 40%;
+  background: #c9c2c2;
+  margin-top: 20px;
+  justify-content: left;
+  align-items: center;
+}
+
+.preview .photo_icon {
+  font-size: 8rem;
+}
+
+.img_preview {
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.blog_container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  box-shadow: 0 0p 30px rgba(0, 0, 0, 0.2);
+  padding: 2rem 3.5rem;
+  display: grid;
+  border-radius: 10px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 0.8rem;
+}
+
+.blog_items {
+  width: 100%;
+  border: 1px solid #bcb7b7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px grey;
+}
+
+.blog_image img {
+  width: 100%;
+  height: 10rem;
+}
+
+.blog_actions,
+.blog_title,
+.blog_date {
+  padding: 0 0.8rem;
+}
+
+.blog_actions {
+  display: flex;
+  padding-bottom: 0.8rem;
+}
+
+.blog_actions .action_btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+}
+
+.action_btn:first-child {
+  flex: 50%;
+  margin-right: 0.8rem;
+  background-color: #6f6f25;
+  color: #fff;
+}
+
+.action_btn:first-child:hover {
+  background-color: transparent;
+  color: #6f6f25;
+  border: 1px solid #6f6f25;
+}
+
+.action_btn:last-child {
+  flex: 50%;
+  background-color: #9c1d06;
+  color: #fff;
+}
+
+.action_btn:last-child:hover {
+  background-color: transparent;
+  color: #9c1d06;
+  border: 1px solid #9c1d06;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 56px;
+}
+
+.blog_date p {
+  color: #8f8d8d;
+}
+
+.formContainerBlock input,
+textarea {
+  border: none;
+}
+
+#projects {
+  padding-top: 2rem;
+  background-color: #f3f4f5;
+}
+
+#text {
+  text-align: center;
+}
+
+.navRight {
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 40px;
+  flex: 30%;
+}
+
+.navRight ul li a {
+  border: 2px solid navy;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: navy;
+  color: white;
+}
+
+.navRight ul li a:hover {
+  border-color: silver;
+  background-color: silver;
+  color: white;
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: orangered;
+  font-family: 'Poppins', sans-serif;
+}
+
+.headContent {
+  background-color: orangered;
+  margin: 30px 200px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.form_element label {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.form {
+  width: 400px;
+}
+
+.form_element input,
+textarea,
+select {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px 15px 5px;
+}
+
+.btnSubmit-kirim button:hover {
+  cursor: pointer;
+  border-color: orangered;
+  background-color: silver;
+  color: white;
+}
+
+.btnSubmit-kirim {
+  text-align: right;
+}
+
+.btnSubmit-kirim button {
+  border-color: navy;
+  background-color: navy;
+  font-size: 20px;
+  padding: 3px 20px;
+  border: 2px solid navy;
+  color: white;
+  border-radius: 10px;
+}
+
+.btnSubmit button:hover {
+  cursor: pointer;
+  border-color: orangered;
+  background-color: silver;
+  color: white;
+}
+
+.btnSubmit button:hover {
+  cursor: pointer;
+  border-color: orangered;
+  background-color: silver;
+  color: white;
+}
